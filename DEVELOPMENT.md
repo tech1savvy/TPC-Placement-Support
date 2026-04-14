@@ -18,6 +18,12 @@ just db       # Start databases (if not already running)
 just dev      # Start backend + frontend
 ```
 
+## Stopping
+
+```bash
+just db-stop  # Stop MongoDB + Redis containers
+```
+
 ## URLs
 
 | Service      | URL                       |
