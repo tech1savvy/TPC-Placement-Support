@@ -5,9 +5,10 @@
 Run these commands in order:
 
 ```bash
-just db       # 1. Start MongoDB + Redis (Docker)
-just seed     # 2. Seed Admin & TPC users (one-time only)
-just dev      # 3. Start backend + frontend
+just install  # 1. Install all npm dependencies (one-time only)
+just db       # 2. Start MongoDB + Redis (Docker)
+just seed     # 3. Seed Admin & TPC users (one-time only)
+just dev      # 4. Start backend + frontend
 ```
 
 ## Daily Development
