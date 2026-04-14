@@ -1,0 +1,30 @@
+# Temp / scratch files
+patch.js
+tmp_b64.js
+tmp_gen.js
+tmp_images.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment files (keep examples)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
